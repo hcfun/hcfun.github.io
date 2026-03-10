@@ -9,7 +9,7 @@ layout: page
 <br>
 <!-- I am a  Ph.D. candidate majoring in Software Engineering at School of Computer and Artificial Intelligence, Zhengzhou University. My main research area is Knowledge Representation Learning (KRL), including Static KRL, Temporal KRL, and Multi-Modal KRL. I have published and co-authored some research papers in several top journals and conferences. -->
 
-## 教育背景
+### 教育背景
 
 <!-- **<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025 Fall. Contact me if you have any leads!** -->
 
@@ -22,7 +22,7 @@ layout: page
 
 ---
 
-## 研究方向
+### 研究方向
 
 - Knowledge Representation Learning
 - Graph Representation Learning
