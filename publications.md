@@ -32,12 +32,12 @@ IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2022.
 <br>**Haichuan Fang**, Haoran Zhang, Yulin Du, Qiang Guo, Zhen Tian, Youwei Wang, and Yangdong Ye<br>
 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2020.
 
-### 合作论文
+<!-- ### 合作论文
 - Predicting microbe–drug associations with structure-enhanced contrastive learning and self-paced negative sampling strategy. <a href="https://hcfun.github.io//file/6.2022.12SCSMDA-BIB.pdf"><img src="/images/pdf.png" width="20" height="20"></a><a href="https://github.com/Yue-Yuu/SCSMDA-master"><img src="/images/code.png" width="20" height="20"></a><br>Zhen Tian, Yue Yu, **Haichuan Fang**, Weixin Xie, Maozu Guo![](http://latex.codecogs.com/svg.latex?\ast)<br>Briefings in Bioinformatics, 2022.
 
 - MHADTI: predicting drug–target interactions via multiview heterogeneous information network embedding with hierarchical attention mechanisms. <a href="https://hcfun.github.io//file/4.2022.9MHADTI-BIB.pdf"><img src="/images/pdf.png" width="20" height="20"></a><a href="https://github.com/pxystudy/MHADTI"><img src="/images/code.png" width="20" height="20"></a><br>Zhen Tian, Xiangyu Peng, **Haichuan Fang**, Wenjie Zhang, Qiguo Dai, Yangdong Ye![](http://latex.codecogs.com/svg.latex?\ast)<br>
 Briefings in Bioinformatics, 2022.
-<br>
+<br> -->
 
 <!-- ---
 
