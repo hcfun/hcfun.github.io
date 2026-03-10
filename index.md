@@ -13,23 +13,28 @@ layout: page
 
 <!-- **<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025 Fall. Contact me if you have any leads!** -->
 
-- **Sep 2022 - :** Zhengzhou University (Ph.D. Candidate), Software Engineering, supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
+<!-- - **Sep 2022 - :** Zhengzhou University (Ph.D. Candidate), Software Engineering, supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/)
 - **Sep 2019 - Jun 2022:** Zhengzhou University (MSc), Software Engineering, supervised by [Prof. Yangdong Ye](http://www5.zzu.edu.cn/mlis/) and [Prof. Zhen Tian](https://lovehades001.github.io/)
-- **Sep 2015 - Jun 2019:** Dalian Ocean University (BSc), Computer Science and Technology
+- **Sep 2015 - Jun 2019:** Dalian Ocean University (BSc), Computer Science and Technology -->
+- **2022.09 - :** 郑州大学，博士（ 导师[叶阳东教授](http://www5.zzu.edu.cn/mlis/)）
+- **2019.09 - 2022.07:** 郑州大学，硕士（ 导师[叶阳东教授](http://www5.zzu.edu.cn/mlis/)、[田侦教授](https://lovehades001.github.io/)）
+- **2015.09 - 2019.07:** 大连海洋大学，学士
 
 <!-- - Expect to apply for a one-year MSc in the UK and will graduate in 2025. Looking for PhD position after MSc! -->
 <br>
 
----
+<!-- --- -->
 
 ### 研究方向
 
-- Knowledge Representation Learning
-- Graph Representation Learning
-- Data Mining
-- Bioinformatics
-- Deep Learning
-<p align="justify">My current research focuses on practical problems brought about by the era of big data. Knowledge graph, as an important form of the existence of a large number of data, its representation learning can play an important role in quite a number of practical applications, including Question Answering, Intelligent Search, Bioinformatics, Recommender System, and so on. I wish to devote my talent to this meaningful issue and bring well-being to society.</p>
+- 知识表示学习（Knowledge Representation Learning）
+- 图表示学习（Graph Representation Learning）
+- 数据挖掘（Data Mining）
+- 信息瓶颈（Information Bottleneck）
+- 生物信息学（Bioinformatics）
+<!-- <p align="justify">My current research focuses on practical problems brought about by the era of big data. Knowledge graph, as an important form of the existence of a large number of data, its representation learning can play an important role in quite a number of practical applications, including Question Answering, Intelligent Search, Bioinformatics, Recommender System, and so on. I wish to devote my talent to this meaningful issue and bring well-being to society.</p>
+<br> -->
+<p align="justify">本人目前的主要研究方向集中于知识图谱（包括但不限于常规知识图谱、时序知识图谱、多模态知识图谱）的表示学习，关注先进理论如信息瓶颈与知识表示学习的结合，以及基于知识表示学习的下游应用如生物实体预测、推荐系统、智能问答等。</p>
 <br>
 
 <!-- --- -->
