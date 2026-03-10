@@ -11,25 +11,25 @@ title: Publications
 <!-- ![](http://latex.codecogs.com/svg.latex?^{\bullet}) -->
 ### 期刊论文
 - [Contrastive Variational Graph Symmetric Autoencoder for Full Extrapolation Over Temporal Knowledge Graphs](https://ieeexplore.ieee.org/abstract/document/11399909/).
-<br>**Haichuan Fang**, Zhen Tian, Youwei Wang, Bo Ji, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup><br>.
+<br>**Haichuan Fang**, Zhen Tian, Youwei Wang, Bo Ji, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
 IEEE Transactions on Systems, Man, and Cybernetics: Systems (TSMC), 2026.
 
-- Meta-collaboration-based Semantic Contrast for Inductive Knowledge Representation Learning. <a href="https://www.sciencedirect.com/science/article/pii/S0957417424022887/"><img src="/images/pdf.png" width="20" height="20"></a>
-<br>**Haichuan Fang**, Kexin Cheng, Ruixin Zhang, Youwei Wang, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup><br>
+- [Meta-collaboration-based Semantic Contrast for Inductive Knowledge Representation Learning](https://www.sciencedirect.com/science/article/pii/S0957417424022887/).
+<br>**Haichuan Fang**, Kexin Cheng, Ruixin Zhang, Youwei Wang, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
 Expert Systems with Applications (ESWA), 2025.
 
-- Learning Knowledge Graph Embedding with A Dual-attention Embedding Network. <a href="https://www.sciencedirect.com/science/article/pii/S0957417422018243"><img src="/images/pdf.png" width="20" height="20"></a>
-<br>**Haichuan Fang**, Youwei Wang, Zhen Tian<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup><br>
+- [Learning Knowledge Graph Embedding with A Dual-attention Embedding Network](https://www.sciencedirect.com/science/article/pii/S0957417422018243).
+<br>**Haichuan Fang**, Youwei Wang, Zhen Tian<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
 Expert Systems with Applications (ESWA), 2022.
 
-- GOGCN: Graph Convolutional Network on Gene Ontology for functional similarity analysis of genes. <a href="https://ieeexplore.ieee.org/abstract/document/9794430/"><img src="/images/pdf.png" width="20" height="20"></a>
-<br>Zhen Tian![](http://latex.codecogs.com/svg.latex?\dagger), **Haichuan Fang**![](http://latex.codecogs.com/svg.latex?\dagger), Zhixia Teng, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup><br>
+- [GOGCN: Graph Convolutional Network on Gene Ontology for functional similarity analysis of genes](https://ieeexplore.ieee.org/abstract/document/9794430/).
+<br>Zhen Tian![](http://latex.codecogs.com/svg.latex?\dagger), **Haichuan Fang**![](http://latex.codecogs.com/svg.latex?\dagger), Zhixia Teng, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
 IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB), 2022.
 
 
 ### 会议论文
-- CDIB: Consistency Discovery-guided Information Bottleneck for Multi-modal Knowledge Graph Reasoning. <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3754929"><img src="/images/pdf.png" width="20" height="20"></a>
-<br>**Haichuan Fang**, Haoran Zhang, Yulin Du, Qiang Guo, Zhen Tian, Youwei Wang, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup><br>
+- [CDIB: Consistency Discovery-guided Information Bottleneck for Multi-modal Knowledge Graph Reasoning](https://dl.acm.org/doi/abs/10.1145/3746027.3754929).
+<br>**Haichuan Fang**, Haoran Zhang, Yulin Du, Qiang Guo, Zhen Tian, Youwei Wang, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
 ACM International Conference on Multimedia (ACM MM), 2020.
 
 <!-- ### 合作论文
