@@ -10,8 +10,8 @@ title: Publications
 
 <!-- ![](http://latex.codecogs.com/svg.latex?^{\bullet}) -->
 ### 期刊论文
-- Contrastive Variational Graph Symmetric Autoencoder for Full Extrapolation Over Temporal Knowledge Graphs. <a href="https://ieeexplore.ieee.org/abstract/document/11399909/"><img src="/images/pdf.png" width="20" height="20"></a>
-<br>**Haichuan Fang**, Zhen Tian, Youwei Wang, Bo Ji, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup><br>
+- [Contrastive Variational Graph Symmetric Autoencoder for Full Extrapolation Over Temporal Knowledge Graphs](https://ieeexplore.ieee.org/abstract/document/11399909/).
+<br>**Haichuan Fang**, Zhen Tian, Youwei Wang, Bo Ji, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup><br>.
 IEEE Transactions on Systems, Man, and Cybernetics: Systems (TSMC), 2026.
 
 - Meta-collaboration-based Semantic Contrast for Inductive Knowledge Representation Learning. <a href="https://www.sciencedirect.com/science/article/pii/S0957417424022887/"><img src="/images/pdf.png" width="20" height="20"></a>
