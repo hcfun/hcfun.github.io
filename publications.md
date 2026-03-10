@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-最近更新：{{ site.time | date: "%Y.%m.%d" }}.&nbsp;  ![](http://latex.codecogs.com/svg.latex?\dagger)、![](http://latex.codecogs.com/svg.latex?\ast)分别表示同等贡献与通讯作者。
+最近更新：{{ site.time | date: "%Y.%m.%d" }}。&nbsp;  ![](http://latex.codecogs.com/svg.latex?\dagger)、![](http://latex.codecogs.com/svg.latex?\ast)分别表示同等贡献与通讯作者。
 <!-- [中文版本 (Chinese Version)](https://caihanlin.com/file/publications-zh/) -->
 
 
