@@ -37,15 +37,15 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 links:
   - title: 个人简介
     url: /
-  - title: Resume
-    url: /file/方海川简历.pdf
-  - title: Publications
+  # - title: Resume
+  #   url: /file/方海川简历.pdf
+  - title: 学术论文
     url: /publications/
   # - title: Awards
   #   url: /awards/
-  - title: Fundings
+  - title: 项目
     url: /fundings/
-  - title: Academic Activities
+  - title: 学术工作
     url: /AcademicActivities
   # - title: Hobbies
   #   url: /hobbies/
