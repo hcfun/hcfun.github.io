@@ -24,7 +24,7 @@ Expert Systems with Applications (ESWA), 2023.
 
 - [GOGCN: Graph Convolutional Network on Gene Ontology for functional similarity analysis of genes](https://ieeexplore.ieee.org/abstract/document/9794430/).
 <br>Zhen Tian![](http://latex.codecogs.com/svg.latex?\dagger), **Haichuan Fang**![](http://latex.codecogs.com/svg.latex?\dagger), Zhixia Teng, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
-IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB), 2023.
+IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB), 2022.
 
 
 ### 会议论文
