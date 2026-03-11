@@ -20,17 +20,17 @@ Expert Systems with Applications (ESWA), 2025.
 
 - [Learning Knowledge Graph Embedding with A Dual-attention Embedding Network](https://www.sciencedirect.com/science/article/pii/S0957417422018243).
 <br>**Haichuan Fang**, Youwei Wang, Zhen Tian<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
-Expert Systems with Applications (ESWA), 2022.
+Expert Systems with Applications (ESWA), 2023.
 
 - [GOGCN: Graph Convolutional Network on Gene Ontology for functional similarity analysis of genes](https://ieeexplore.ieee.org/abstract/document/9794430/).
 <br>Zhen Tian![](http://latex.codecogs.com/svg.latex?\dagger), **Haichuan Fang**![](http://latex.codecogs.com/svg.latex?\dagger), Zhixia Teng, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
-IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB), 2022.
+IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB), 2023.
 
 
 ### 会议论文
 - [CDIB: Consistency Discovery-guided Information Bottleneck for Multi-modal Knowledge Graph Reasoning](https://dl.acm.org/doi/abs/10.1145/3746027.3754929).
 <br>**Haichuan Fang**, Haoran Zhang, Yulin Du, Qiang Guo, Zhen Tian, Youwei Wang, and Yangdong Ye<sup>![](http://latex.codecogs.com/svg.latex?\ast)</sup>.<br>
-ACM International Conference on Multimedia (ACM MM), 2020.
+ACM International Conference on Multimedia (ACM MM), 2025.
 
 <!-- ### 合作论文
 - Predicting microbe–drug associations with structure-enhanced contrastive learning and self-paced negative sampling strategy. <a href="https://hcfun.github.io//file/6.2022.12SCSMDA-BIB.pdf"><img src="/images/pdf.png" width="20" height="20"></a><a href="https://github.com/Yue-Yuu/SCSMDA-master"><img src="/images/code.png" width="20" height="20"></a><br>Zhen Tian, Yue Yu, **Haichuan Fang**, Weixin Xie, Maozu Guo![](http://latex.codecogs.com/svg.latex?\ast)<br>Briefings in Bioinformatics, 2022.
