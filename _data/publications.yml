@@ -1,7 +1,7 @@
 - title: Contrastive Variational Graph Symmetric Autoencoder for Full Extrapolation Over Temporal Knowledge Graphs
   url: https://ieeexplore.ieee.org/abstract/document/11399909/
   authors: "**Haichuan Fang**, Zhen Tian, Youwei Wang, Bo Ji, and Yangdong Ye"
-  venue: IEEE Transactions on Systems, Man, and Cybernetics: Systems (TSMC)
+  venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems (TSMC)"
   year: 2026
   type: Journal
 
@@ -26,7 +26,7 @@
   year: 2023
   type: Journal
 
-- title: GOGCN: Graph Convolutional Network on Gene Ontology for functional similarity analysis of genes
+- title: "GOGCN: Graph Convolutional Network on Gene Ontology for functional similarity analysis of genes"
   url: https://ieeexplore.ieee.org/abstract/document/9794430/
   authors: "Zhen Tian, **Haichuan Fang**, Zhixia Teng, and Yangdong Ye"
   venue: IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)
