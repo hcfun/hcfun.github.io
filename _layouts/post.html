@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<article class="container article-page" itemscope itemtype="https://schema.org/ScholarlyArticle">
-  <header class="article-header">
-    <p class="eyebrow">{{ page.date | date: "%Y.%m.%d" }}</p>
-    <h1 itemprop="headline">{{ page.title }}</h1>
-  </header>
-  <div class="prose" itemprop="articleBody">
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+  <p class="text-muted" style="font-size: 0.875rem;">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    {% if page.author %} &middot; <span itemprop="author">{{ page.author }}</span>{% endif %}
+  </p>
+  <div itemprop="articleBody">
     {{ content }}
   </div>
 </article>

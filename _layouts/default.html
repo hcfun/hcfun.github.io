@@ -1,26 +1,18 @@
-<!doctype html>
-<html lang="zh-CN">
-<head>
+<!DOCTYPE html>
+<html lang="en">
+
   {% include head.html %}
-  {% include analytics.html %}
-</head>
-<body class="page-shell">
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="返回首页">
-        <span class="wordmark-monogram">HF</span>
-        <span>{{ site.owner.name_en }}</span>
-      </a>
-    </div>
-  </header>
 
-  <main class="page-main" id="main-content">
-    {{ content }}
-  </main>
+  <body>
 
-  <footer class="site-footer">
+    {% include header.html %}
+
+    <main class="site-container">
+      {{ content }}
+    </main>
+
     {% include footer.html %}
-  </footer>
-  {% include scripts.html %}
-</body>
+
+  </body>
+
 </html>
