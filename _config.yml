@@ -11,13 +11,13 @@ photo: hcfun.jpg  # place your photo in images/
 # STEP 2: Your Links (optional -- delete any you don't use)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
-  orcid: ""
-  twitter: ""
-  linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  google_scholar: "https://scholar.google.com/citations?user=ZnftqqQAAAAJ&hl=en&oi=ao"
+  github: "https://github.com/hcfun"
+  # researchgate: "https://www.researchgate.net/"
+  orcid: "https://orcid.org/my-orcid?orcid=0000-0002-1340-6937"
+  # twitter: ""
+  # linkedin: ""
+  # cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
