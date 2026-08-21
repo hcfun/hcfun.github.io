@@ -1,14 +1,16 @@
-title: 方海川（郑州大学）
-# tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.
-# description: Two roads diverged in woods, I took the one less traveled by.
-#Comment out url when working locally to resolve base urls correctly
-url: https://hcfun.github.io/
+title: 方海川
+title_en: Haichuan Fang
+description: 方海川的学术主页，研究方向包括知识表示学习、图表示学习、信息瓶颈与生物信息学。
+url: https://hcfun.github.io
+baseurl: ""
 
 # Owner/author information
 owner:
-  name: 方海川（郑州大学）
-  avatar: haichuan.jpg
- # bio:
+  name: 方海川
+  name_en: Haichuan Fang
+  avatar: haichuan-profile.jpg
+  role: 博士研究生
+  affiliation: 郑州大学计算机与人工智能学院
   email: hcfun.zzu@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
@@ -32,28 +34,8 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 # bing_verify: ""
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: 个人简介
-    url: /
-  # - title: Resume
-  #   url: /file/方海川简历.pdf
-  - title: 学术论文
-    url: /publications/
-  # - title: Awards
-  #   url: /awards/
-  - title: 项目
-    url: /fundings/
-  - title: 学术工作
-    url: /AcademicActivities
-  # - title: Hobbies
-  #   url: /hobbies/
-  # - title: Blogs
-  #   url: /blogs/
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: China/Beijing
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
 # markdown: kramdown

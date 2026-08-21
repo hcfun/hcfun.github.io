@@ -1,12 +1,7 @@
-# Welcome
+# Haichuan Fang · Academic Profile
 
-Here is **Haichuan Fang**. Welcome to my personal website.
+方海川的个人学术主页，使用 Jekyll 构建并发布于 GitHub Pages。
 
-## Update and News
+当前界面采用无顶部导航的单页结构，集中展示个人简介、教育背景、研究方向、代表性论文、科研项目与学术服务。视觉设计受 [Jekyll Theme Dumbarton](https://github.com/tcbutler320/Jekyll-Theme-Dumbarton) 启发，并针对 GitHub Pages 的原生构建环境重新实现，不依赖 `jekyll-scholar`。
 
-- **Seq 2023:** My personal website have been implemented and deployed in [hcfun.github.io](https://hcfun.github.io/)
-
-
-## Statement
-
-© 2023 Haichuan Fang. Published with [GitHub Pages](https://pages.github.com/), powered by [Jekyll](https://jekyllrb.com/), based on the [Minimal Mistakes](https://mademistakes.com/) theme and [Hanlin Cai's site](https://caihanlin.com). Source code for this website can be found [here](https://github.com/hcfun/hcfun.github.io).
+访问地址：[https://hcfun.github.io](https://hcfun.github.io)

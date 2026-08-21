@@ -1,74 +1,128 @@
-<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
-<!-- It is not recommended to modify this code, unless you are a Pro-->
-
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-
+<html lang="zh-CN">
 <head>
-{% include head.html %}
-
-<script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T5N5JY1E21');
-</script>
-
+  {% include head.html %}
+  {% include analytics.html %}
 </head>
+<body class="home-shell">
+  <header class="site-header site-header--home">
+    <div class="container header-inner">
+      <div class="wordmark" aria-label="{{ site.owner.name_en }}">
+        <span class="wordmark-monogram">HF</span>
+        <span>{{ site.owner.name_en }}</span>
+      </div>
+    </div>
+  </header>
 
-<body class="home" itemscope itemtype="http://schema.org/WebPage">
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="portrait-wrap">
+          <div class="portrait-accent" aria-hidden="true"></div>
+          <img class="portrait" src="{{ '/images/' | append: site.owner.avatar | relative_url }}" alt="{{ site.owner.name }}的照片">
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Knowledge Representation Learning</p>
+          <h1>{{ site.owner.name }}<span>{{ site.owner.name_en }}</span></h1>
+          <p class="hero-role">{{ site.owner.role }} · {{ site.owner.affiliation }}</p>
+          <p class="hero-intro">{{ site.data.profile.intro }}</p>
+          {% include social-links.html %}
+        </div>
+      </div>
+    </section>
 
-{% include chrome-frame.html %}
+    <section class="education-section">
+      <div class="container section-grid">
+        <div class="section-intro">
+          <p class="eyebrow">Background</p>
+          <h2>教育背景</h2>
+          <p>Education &amp; Training</p>
+        </div>
+        <div class="timeline">
+          {% for item in site.data.profile.education %}
+          <article class="timeline-item">
+            <p class="timeline-period">{{ item.period }}</p>
+            <div>
+              <h3>{{ item.institution }}</h3>
+              <p>{{ item.degree }}</p>
+              {% if item.advisors %}
+              <p class="timeline-advisors">导师：{% for advisor in item.advisors %}<a href="{{ advisor.url }}">{{ advisor.name }}</a>{% unless forloop.last %}、{% endunless %}{% endfor %}</p>
+              {% endif %}
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
 
-{% include navigation.html %}
+    <section class="highlights-section">
+      <div class="container">
+        <div class="highlights-heading">
+          <div>
+            <p class="eyebrow eyebrow--light">Profile</p>
+            <h2>Academic Highlights</h2>
+          </div>
+          <p>研究成果、方向与学术服务概览</p>
+        </div>
 
-<div class="image-wrap">
-  <div class="headline-wrap">
-    <h1>{{ page.title }}</h1>
-    {% if page.tagline %}<h2>{{ page.tagline }}</h2>{% endif %}
-  </div><!--/ .headline-wrap -->
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image">
-</div><!-- /.image-wrap -->
+        <div class="tabs" data-tabs>
+          <div class="tab-list" role="tablist" aria-label="学术概览">
+            <button class="tab-button is-active" type="button" role="tab" id="tab-publications" aria-selected="true" aria-controls="panel-publications">代表性论文</button>
+            <button class="tab-button" type="button" role="tab" id="tab-research" aria-selected="false" aria-controls="panel-research" tabindex="-1">研究方向</button>
+            <button class="tab-button" type="button" role="tab" id="tab-fundings" aria-selected="false" aria-controls="panel-fundings" tabindex="-1">科研项目</button>
+            <button class="tab-button" type="button" role="tab" id="tab-service" aria-selected="false" aria-controls="panel-service" tabindex="-1">学术服务</button>
+          </div>
 
-<div class="article-author-top">
-  {% include author-bio.html %}
-</div>
+          <div class="tab-panel" role="tabpanel" id="panel-publications" aria-labelledby="tab-publications">
+            <div class="publication-list">
+              {% for paper in site.data.publications %}
+              <article class="publication-card">
+                <div class="publication-meta"><span>{{ paper.type }}</span><time>{{ paper.year }}</time></div>
+                <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
+                <div class="publication-authors">{{ paper.authors | markdownify }}</div>
+                <p class="publication-venue">{{ paper.venue }}</p>
+              </article>
+              {% endfor %}
+            </div>
+          </div>
 
-<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <a href="{{ site.url}}/articles" class="btn btn-small pull-right">View all articles</a>
-  <h3>Latest Articles</h3>
-  <hr />
-  {% for post in site.categories.articles limit:5 %}    
-  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-    <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
-    <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-  </article>
-  {% endfor %}
-</div><!-- /#index -->
+          <div class="tab-panel" role="tabpanel" id="panel-research" aria-labelledby="tab-research" hidden>
+            <div class="research-panel">
+              <div class="tag-cloud">
+                {% for area in site.data.profile.research_areas %}<span>{{ area }}</span>{% endfor %}
+              </div>
+              <p>{{ site.data.profile.research_summary }}</p>
+            </div>
+          </div>
 
-<div class="footer-wrap">
-  <footer>
+          <div class="tab-panel" role="tabpanel" id="panel-fundings" aria-labelledby="tab-fundings" hidden>
+            <div class="funding-list">
+              {% for funding in site.data.profile.fundings %}
+              <article class="funding-item">
+                <div><span>{{ funding.category }}</span><time>{{ funding.period }}</time></div>
+                <h3>{{ funding.title }}</h3>
+                <p>项目编号 {{ funding.number }} · {{ funding.role }}</p>
+              </article>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="tab-panel" role="tabpanel" id="panel-service" aria-labelledby="tab-service" hidden>
+            <div class="service-panel">
+              <p class="service-kicker">期刊审稿人</p>
+              <ul>
+                {% for service in site.data.profile.services %}<li>{{ service }}</li>{% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer site-footer--home">
     {% include footer.html %}
   </footer>
-</div><!-- /.footer-wrap -->
-
-{% include scripts.html %}
-  
-<script>
-document.querySelectorAll('a').forEach(function(link) {
-  if (link.hostname && link.hostname !== window.location.hostname) {
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-  }
-});
-</script>
+  {% include scripts.html %}
 </body>
 </html>

@@ -1,12 +1,14 @@
 ---
 layout: page
 permalink: /AcademicActivities/index.html
-title: Academic Activities
+title: 学术服务
+description: 方海川参与的期刊审稿工作。
 ---
 
+<h2>期刊审稿人</h2>
 
-### 担任期刊审稿人
-IEEE Transactions on Systems, Man, and Cybernetics: Systems
-<br>Expert Systems with Applications
-<br>International Journal of Machine Learning and Cybernetics
-<br>Future Generation Computer Systems
+<ul class="service-list">
+{% for service in site.data.profile.services %}
+  <li>{{ service }}</li>
+{% endfor %}
+</ul>
