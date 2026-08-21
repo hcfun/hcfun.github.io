@@ -1,11 +1,11 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
+name: "Haichuan Fang"
 title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg  # place your photo in images/
+institution: "Zhengzhou University of Light Industry"
+email: hcfun@zzuli.edu.cn
+photo: hcfun.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
@@ -24,7 +24,7 @@ links:
 # ============================================================
 accent_color: "#1a7a6d"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Academic webpage of Dr. Haichuan Fang"
 baseurl: ""
 url: "https://hcfun.github.io"
 
@@ -38,12 +38,12 @@ analytics:
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
+  # - name: talks
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
+  # - name: software
+  # - name: team
+  # - name: teaching
+  # - name: blogs
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
