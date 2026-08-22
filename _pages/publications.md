@@ -9,6 +9,11 @@ permalink: /publications/
 
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
+<div class="pub-symbol-legend">
+  <span><sup>&dagger;</sup> Equal contribution</span>
+  <span><sup>*</sup> Corresponding author</span>
+</div>
+
 <div class="section-card" id="pubList">
 <!-- <h3>Preprints</h3> -->
 

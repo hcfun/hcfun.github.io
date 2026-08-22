@@ -38,7 +38,38 @@
   color: #000066;
   font-weight: 700;
 }
+
+.author-marker {
+  margin-left: 0.08rem;
+  color: var(--accent);
+  font-size: 0.8em;
+  font-weight: 700;
 }
+
+.pub-author-note {
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+}
+
+.pub-symbol-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin: 0 0 var(--space-5);
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  font-style: italic;
+
+  sup {
+    color: var(--accent);
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+}
+
 
 // Year badge — accent pill floated right
 .year-badge {
