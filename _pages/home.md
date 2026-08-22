@@ -5,8 +5,8 @@ sitemap: false
 permalink: /
 ---
 
-<h2 class="home-hero">{{ site.name }}</h2>
-<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
+<!-- <h2 class="home-hero">{{ site.name }}</h2>
+<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p> -->
 
 
 ### About me
