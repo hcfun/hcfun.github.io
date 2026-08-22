@@ -28,11 +28,11 @@
   }
 
   .profile-photo {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top;
+    // object-position: center top;
     margin-bottom: var(--space-4);
     border: 3px solid var(--bg-primary);
     box-shadow:
@@ -47,20 +47,20 @@
 
   .profile-name {
     font-family: 'Source Serif 4', Georgia, serif;
-    font-size: 1.375rem;
+    font-size: 1.575rem;
     font-weight: 700;
     margin-bottom: var(--space-1);
     margin-top: 0;
   }
 
   .profile-title {
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: var(--text-secondary);
     margin-bottom: 0;
   }
 
   .profile-institution {
-    font-size: 0.8125rem;
+    font-size: 1rem;
     color: var(--text-muted);
     margin-bottom: var(--space-1);
   }
