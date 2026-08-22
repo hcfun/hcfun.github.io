@@ -14,7 +14,7 @@
     {% assign full_name = full_name | strip %}
 
     {% if author.first == "Haichuan" and author.last == "Fang" %}
-      <strong>{{ full_name }}</strong>
+      <strong class="author-highlight">{{ full_name }}</strong>
     {% else %}
       {{ full_name }}
     {% endif %}
