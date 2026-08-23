@@ -10,18 +10,17 @@ permalink: /
 
 
 ### About me
-
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
-
+Hi! I am a lecture working in the School of Computer Science and Artificial Intelligence at Zhengzhou University of Light Industry.
+I received my PhD degree in Software Engineering from Zhengzhou University in 2026 under the supervision of [Prof. Yangdong Ye](https://www5.zzu.edu.cn/mlis/Home.htm).
+My research interests mainly lies in data mining, with the focus on knowledge representation learning (KRL) and its practical applications.
+In recent years, I have published several research papers in many highly influential journals or conferences, including *IEEE Transactions on Image Processing*, *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, *Expert Systems with Applications*， *Neural Networks*， *ACM International Conference on Multimedia*, *International Joint Conferences on Artificial Intelligence*, and *IEEE International Conference on Bioinformatics and Biomedicine*.
 
 ### Research Interests
-
-
-
 <div class="chip-container" markdown="0">
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Knowledge Representation Learning</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Knowledge-aware Recommendation</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Knowledge-aware Bioinformatics</a>
+
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
