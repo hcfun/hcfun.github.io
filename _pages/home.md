@@ -17,6 +17,7 @@ My research interests mainly lies in data mining, with the focus on knowledge re
 In recent years, I have published several research papers in many highly influential journals or conferences, including *IEEE Transactions on Image Processing*, *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, *Expert Systems with Applications*， *Neural Networks*， *ACM International Conference on Multimedia*, *International Joint Conferences on Artificial Intelligence*, and *IEEE International Conference on Bioinformatics and Biomedicine*.
 
 ### Research Interests
+
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Knowledge Representation Learning</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Knowledge-aware Recommendation</a>
