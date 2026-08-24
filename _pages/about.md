@@ -31,14 +31,18 @@ permalink: /about/
 </div>
 </div>
 
-{% if site.data.grants %}
+{% assign funding_groups = site.data.funding.funding %}
+{% if funding_groups %}
 <div class="section-card">
-<h3>Grants</h3>
+<h3>Fundings</h3>
+{% for funding_group in funding_groups %}
+<h4>{{ funding_group.name }}</h4>
 <ul>
-{% for grant in site.data.grants %}
-<li>{{ grant.name }}</li>
+{% for item in funding_group.items %}
+<li>{% if item.role %}({{ item.role }}) {% endif %}{{ item.title }}{% if item.number %} ({{ item.number }}){% endif %}{% if item.period %} {{ item.period }}{% endif %}</li>
 {% endfor %}
 </ul>
+{% endfor %}
 </div>
 {% endif %}
 

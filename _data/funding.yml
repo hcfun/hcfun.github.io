@@ -1,11 +1,22 @@
-- name: Nobel Prize in Physics (1965)
-- name: Albert Einstein Award (1954)
-- name: E.O. Lawrence Award (1962)
-- name: Oersted Medal, AAPT (1972)
-- name: National Medal of Science (1979)
+# Funding groups displayed on the About page.
+funding:
+  - name: National Natural Science Foundation of China
+    items:
+      - role: participate
+        title: 知识图谱增强的跨视角分层图对比学习药靶互作关系预测研究
+        number: "62371423"
+        period: "2024-2027"
+      - role: participate
+        title: 图传播IB方法的模型及传播机制研究
+        number: "62176239"
+        period: "2022-2025"
+      - role: participate
+        title: 基于多元数据融合的药物重定位方法研究
+        number: "61801432"
+        period: "2019-2021"
+      - role: participate
+        title: 传播IB方法的研究
+        number: "61772475"
+        period: "2018-2021"
 
 
-National Natural Science Foundation of China
-
-(participate) Research on the model and propagation mechanism of graph propagation information bottleneck method (62176239) 2022-2025
-(participate) Research on propagation information bottleneck method (61772475) 2018-2021 
