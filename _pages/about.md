@@ -7,29 +7,28 @@ permalink: /about/
 
 ## About
 
+{% assign experiences = site.data["edu&pro"].experiences %}
+{% if experiences %}
 <div class="section-card">
-<div class="pi-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="pi-photo" alt="{{ site.name }}" loading="lazy">
-<div>
-<h3 class="pi-name">{{ site.name }}</h3>
-<p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>
-<div class="pi-links">
-{% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
-{% if site.links.cv and site.links.cv != "" %}<a href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" class="icon-link" title="CV"><i class="ai ai-cv"></i></a>{% endif %}
-{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-{% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
-{% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
-</div>
-{% if site.data.pi[0].education %}
-<ul style="margin-top: var(--space-4);">
-{% for education in site.data.pi[0].education %}
-<li>{{ education | replace: "-","&#8211;" }}</li>
+<h3>Educational and Professional Experiences</h3>
+<ul>
+{% for experience in experiences %}
+<li><strong>{{ experience.period | replace: "-", "&#8211;" }}</strong> &mdash; {{ experience.position }}{% if experience.detail %}, {{ experience.detail }}{% endif %}, {{ experience.organization }}</li>
 {% endfor %}
 </ul>
+</div>
 {% endif %}
+
+{% if site.data.awards %}
+<div class="section-card">
+<h3>Awards and Honors</h3>
+<ul>
+{% for award in site.data.awards %}
+<li>{{ award.name | replace: "-", "&#8211;" }}</li>
+{% endfor %}
+</ul>
 </div>
-</div>
-</div>
+{% endif %}
 
 {% assign funding_groups = site.data.funding.funding %}
 {% if funding_groups %}
@@ -39,42 +38,24 @@ permalink: /about/
 <h4>{{ funding_group.name }}</h4>
 <ul>
 {% for item in funding_group.items %}
-<li>{% if item.role %}({{ item.role }}) {% endif %}{{ item.title }}{% if item.number %} ({{ item.number }}){% endif %}{% if item.period %} {{ item.period }}{% endif %}</li>
+<li>{% if item.role %}({{ item.role }}) {% endif %}{% if item.period %}{{ item.period | replace: "-", "&#8211;" }} {% endif %}<strong>{{ item.title }}</strong>{% if item.number %} ({{ item.number }}){% endif %}</li>
 {% endfor %}
 </ul>
 {% endfor %}
 </div>
 {% endif %}
 
-{% if site.data.awards %}
+{% assign academic_service_groups = site.data.academic.academic_services %}
+{% if academic_service_groups %}
 <div class="section-card">
-<h3>Awards</h3>
+<h3>Academic Services</h3>
+{% for service_group in academic_service_groups %}
+<h4>{{ service_group.name }}</h4>
 <ul>
-{% for award in site.data.awards %}
-<li>{{ award.name | replace: "-","&#8211;" }}</li>
+{% for item in service_group.items %}
+<li>{{ item }}</li>
 {% endfor %}
 </ul>
-</div>
-{% endif %}
-
-{% if site.data.people %}
-<div class="section-card">
-<h3>Students and Mentoring</h3>
-<ul>
-{% for student in site.data.people %}
-<li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year }})</li>
 {% endfor %}
-</ul>
-</div>
-{% endif %}
-
-{% if site.data.funders %}
-<div class="section-card">
-<h4>Sponsors</h4>
-<div class="sponsor-logos" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-6);">
-{% for funder in site.data.funders %}
-<a href="{{ funder.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}" alt="Funder logo" style="max-height: 80px; max-width: 200px; border-radius: 0;" loading="lazy"></a>
-{% endfor %}
-</div>
 </div>
 {% endif %}

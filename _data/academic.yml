@@ -1,0 +1,16 @@
+# Academic service groups displayed on the About page.
+academic_services:
+  - name: Journal Reviewer
+    items:
+      - "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+      - Pattern Recognition
+      - Expert Systems with Applications
+      - Knowledge-Based Systems
+      - Engineering Applications of Artificial Intelligence
+      - International Journal of Machine Learning and Cybernetics
+      - Future Generation Computer Systems
+  - name: Conference Reviewer
+    items:
+      - ACM International Conference on Multimedia
+      - International Joint Conference on Artificial Intelligence
+      - AAAI Conference on Artificial Intelligence

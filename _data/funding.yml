@@ -1,3 +1,5 @@
+
+
 # Funding groups displayed on the About page.
 funding:
   - name: National Natural Science Foundation of China
@@ -5,18 +7,16 @@ funding:
       - role: participate
         title: 知识图谱增强的跨视角分层图对比学习药靶互作关系预测研究
         number: "62371423"
-        period: "2024-2027"
+        period: January 2024-December 2027
       - role: participate
         title: 图传播IB方法的模型及传播机制研究
         number: "62176239"
-        period: "2022-2025"
+        period: January 2022-December 2025
       - role: participate
         title: 基于多元数据融合的药物重定位方法研究
         number: "61801432"
-        period: "2019-2021"
+        period: January 2019-December 2021
       - role: participate
         title: 传播IB方法的研究
         number: "61772475"
-        period: "2018-2021"
-
-
+        period: January 2018-December 2021
