@@ -9,7 +9,7 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p> -->
 
 
-### About me
+### About Me
 
 Hello! I am a lecturer at the [School of Computer Science and Artificial Intelligence](https://cs.zzuli.edu.cn/), Zhengzhou University of Light Industry.
 I received my Ph.D. in Software Engineering from Zhengzhou University in 2026, under the supervision of [Prof. Yangdong Ye](https://www5.zzu.edu.cn/mlis/Home.htm), and also collaborated closely with [Prof. Zhen Tian](https://lovehades001.github.io/).
