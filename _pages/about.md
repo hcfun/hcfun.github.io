@@ -31,7 +31,7 @@ permalink: /about/
 </div>
 </div>
 
-{% assign experiences = site.data["edu&pro"].experiences %}
+{% assign experiences = site.data.experiences.experiences %}
 {% if experiences %}
 <div class="section-card">
 <h3>Educational and Professional Experiences</h3>
