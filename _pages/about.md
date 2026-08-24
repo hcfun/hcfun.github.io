@@ -7,7 +7,7 @@ permalink: /about/
 
 ## About
 
-<div class="section-card">
+<div class="section-card about-section-card">
 <div class="pi-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="pi-photo" alt="{{ site.name }}" loading="lazy">
 <div>
@@ -33,7 +33,7 @@ permalink: /about/
 
 {% assign experiences = site.data.experiences.experiences %}
 {% if experiences %}
-<div class="section-card">
+<div class="section-card about-section-card">
 <h3>Educational and Professional Experiences</h3>
 <ul>
 {% for experience in experiences %}
@@ -44,7 +44,7 @@ permalink: /about/
 {% endif %}
 
 {% if site.data.awards %}
-<div class="section-card">
+<div class="section-card about-section-card">
 <h3>Awards and Honors</h3>
 <ul>
 {% for award in site.data.awards %}
@@ -56,7 +56,7 @@ permalink: /about/
 
 {% assign funding_groups = site.data.funding.funding %}
 {% if funding_groups %}
-<div class="section-card">
+<div class="section-card about-section-card">
 <h3>Fundings</h3>
 {% for funding_group in funding_groups %}
 <h4>{{ funding_group.name }}</h4>
@@ -71,7 +71,7 @@ permalink: /about/
 
 {% assign academic_service_groups = site.data.academic.academic_services %}
 {% if academic_service_groups %}
-<div class="section-card">
+<div class="section-card about-section-card">
 <h3>Academic Services</h3>
 {% for service_group in academic_service_groups %}
 <h4>{{ service_group.name }}</h4>
