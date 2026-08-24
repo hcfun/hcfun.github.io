@@ -37,7 +37,7 @@ permalink: /about/
 <h3>Educational and Professional Experiences</h3>
 <ul>
 {% for experience in experiences %}
-<li><strong>{{ experience.period | replace: "-", "&#8211;" }}</strong> &mdash; {{ experience.position }}{% if experience.detail %}, {{ experience.detail }}{% endif %}, {{ experience.organization }}</li>
+<li>{{ experience.period | replace: "-", "&#8211;" }}, {{ experience.position }}{% if experience.detail %}, {{ experience.detail }}{% endif %}, {{ experience.organization }}</li>
 {% endfor %}
 </ul>
 </div>
@@ -62,7 +62,7 @@ permalink: /about/
 <h4>{{ funding_group.name }}</h4>
 <ul>
 {% for item in funding_group.items %}
-<li>{% if item.role %}({{ item.role }}) {% endif %}{% if item.period %}{{ item.period | replace: "-", "&#8211;" }} {% endif %}<strong>{{ item.title }}</strong>{% if item.number %} ({{ item.number }}){% endif %}</li>
+<li>{% if item.role %}({{ item.role }}) {% endif %}{% if item.period %}{{ item.period | replace: "-", "&#8211;" }}, {% endif %}<strong>{{ item.title }}</strong>{% if item.number %} ({{ item.number }}){% endif %}</li>
 {% endfor %}
 </ul>
 {% endfor %}
