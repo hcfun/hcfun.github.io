@@ -50,7 +50,8 @@ Research in theoretical physics helps us to make predictions about how the unive
 
 <div class="banner-frame" markdown="0">
 <img src="{{ site.url }}{{ site.baseurl }}/images/kg.png" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<!-- <div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div> -->
+<div class="banner-caption">Examples of knowledge graphs. (1949)</div>
 </div> 
 
 
