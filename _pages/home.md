@@ -14,7 +14,7 @@ permalink: /
 Hello! I am currently a lecturer at the [School of Computer Science and Artificial Intelligence](https://cs.zzuli.edu.cn/), Zhengzhou University of Light Industry.
 I received my Ph.D. in Software Engineering from Zhengzhou University in 2026, under the supervision of [Prof. Yangdong Ye](https://www5.zzu.edu.cn/mlis/Home.htm), and also collaborated closely with [Prof. Zhen Tian](https://lovehades001.github.io/).
 My research focuses primarily on data mining, with a particular interest in Knowledge Representation Learning (KRL) and its applications.
-In recent years, I have published many research papers in highly influential journals or conferences, including *IEEE Transactions on Image Processing*, *IEEE Transactions on Multimedia*, *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, *Expert Systems with Applications*， *Neural Networks*， *ACM International Conference on Multimedia*, *International Joint Conferences on Artificial Intelligence*, and *IEEE International Conference on Bioinformatics and Biomedicine*.
+In recent years, I have published many research papers in highly influential journals or conferences, including *IEEE Transactions on Image Processing*, *IEEE Transactions on Multimedia*, *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, *Expert Systems with Applications*, *Neural Networks*, *ACM International Conference on Multimedia*, *International Joint Conferences on Artificial Intelligence*, and *IEEE International Conference on Bioinformatics and Biomedicine*.
 
 
 ### Research Interests
